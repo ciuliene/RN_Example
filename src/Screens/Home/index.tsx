@@ -1,20 +1,20 @@
 import React from 'react';
 import {SafeAreaView, View, Text, StyleSheet} from 'react-native';
 
-const App = () => {
+const Home = () => {
   return (
-    <SafeAreaView style={styles.appContainer}>
+    <SafeAreaView style={styles.screenContainer}>
       <View>
-        <Text>App</Text>
+        <Text>Home</Text>
       </View>
     </SafeAreaView>
   );
 };
 
-export default App;
+export default Home;
 
 const styles = StyleSheet.create({
-  appContainer: {
+  screenContainer: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
