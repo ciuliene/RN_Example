@@ -18,7 +18,7 @@ Spostarsi nella cartella del progetto appena creato ed eseguire il seguente coma
 ```sh
 cd <nome-progetto>
 
-npm install -D TypeScript @types/jest @types/react @types/react-native @types/react-test-renderer
+npm install -D typescript @types/jest @types/react @types/react-native @types/react-test-renderer
 ```
 
 ## Configurazione TypeScript
